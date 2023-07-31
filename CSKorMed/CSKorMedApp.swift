@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import MaleBody
 
 @main
 struct CSKorMedApp: App {
+    @State var viewModel = ViewModel()
+    
+    init() {
+        MaleBody.PointComponent.registerComponent()
+        PointRuntimeComponent.registerComponent()
+    }
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        ImmersiveSpace {
+            ContentView(viewModel: viewModel)
         }
     }
 }

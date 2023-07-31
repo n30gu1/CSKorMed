@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B292C9CC2A5068D900A0D5E5 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = B292C9CB2A5068D900A0D5E5 /* RealityKitContent */; };
 		B292C9CE2A5068D900A0D5E5 /* CSKorMedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B292C9CD2A5068D900A0D5E5 /* CSKorMedApp.swift */; };
 		B292C9D02A5068D900A0D5E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B292C9CF2A5068D900A0D5E5 /* ContentView.swift */; };
 		B292C9D22A5068DB00A0D5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B292C9D12A5068DB00A0D5E5 /* Assets.xcassets */; };
 		B292C9D52A5068DB00A0D5E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B292C9D42A5068DB00A0D5E5 /* Preview Assets.xcassets */; };
+		B29C55B62A50694B0022CEB7 /* MaleBody in Frameworks */ = {isa = PBXBuildFile; productRef = B29C55B52A50694B0022CEB7 /* MaleBody */; };
+		B2D67C9E2A6AAB0C00EDD422 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D67C9D2A6AAB0C00EDD422 /* Components.swift */; };
+		B2D67CA02A6AAC7000EDD422 /* LearnMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D67C9F2A6AAC7000EDD422 /* LearnMoreView.swift */; };
+		B2D67CA22A6AAD0000EDD422 /* AttachmentsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D67CA12A6AAD0000EDD422 /* AttachmentsProvider.swift */; };
+		B2D87CA72A6ADA4E009072B5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D87CA62A6ADA4D009072B5 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20820002A6AEE750049E5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B292C9C62A5068D900A0D5E5 /* CSKorMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSKorMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B292C9CA2A5068D900A0D5E5 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		B292C9CD2A5068D900A0D5E5 /* CSKorMedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSKorMedApp.swift; sourceTree = "<group>"; };
 		B292C9CF2A5068D900A0D5E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B292C9D12A5068DB00A0D5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B292C9D42A5068DB00A0D5E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B29C55B32A50691A0022CEB7 /* MaleBody */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MaleBody; path = ../MaleBody; sourceTree = "<group>"; };
+		B2D67C9D2A6AAB0C00EDD422 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		B2D67C9F2A6AAC7000EDD422 /* LearnMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreView.swift; sourceTree = "<group>"; };
+		B2D67CA12A6AAD0000EDD422 /* AttachmentsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsProvider.swift; sourceTree = "<group>"; };
+		B2D87CA62A6ADA4D009072B5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B292C9CC2A5068D900A0D5E5 /* RealityKitContent in Frameworks */,
+				B29C55B62A50694B0022CEB7 /* MaleBody in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +48,10 @@
 			isa = PBXGroup;
 			children = (
 				B292C9C82A5068D900A0D5E5 /* CSKorMed */,
+				B29C55B32A50691A0022CEB7 /* MaleBody */,
 				B292C9C92A5068D900A0D5E5 /* Packages */,
 				B292C9C72A5068D900A0D5E5 /* Products */,
+				B29C55B42A5069270022CEB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,10 +66,15 @@
 		B292C9C82A5068D900A0D5E5 /* CSKorMed */ = {
 			isa = PBXGroup;
 			children = (
+				B2D67CA12A6AAD0000EDD422 /* AttachmentsProvider.swift */,
 				B292C9CD2A5068D900A0D5E5 /* CSKorMedApp.swift */,
 				B292C9CF2A5068D900A0D5E5 /* ContentView.swift */,
 				B292C9D12A5068DB00A0D5E5 /* Assets.xcassets */,
 				B292C9D32A5068DB00A0D5E5 /* Preview Content */,
+				B2D67C9D2A6AAB0C00EDD422 /* Components.swift */,
+				B2D67C9F2A6AAC7000EDD422 /* LearnMoreView.swift */,
+				B2D87CA62A6ADA4D009072B5 /* ViewModel.swift */,
+				B20820002A6AEE750049E5B2 /* Info.plist */,
 			);
 			path = CSKorMed;
 			sourceTree = "<group>";
@@ -66,7 +82,6 @@
 		B292C9C92A5068D900A0D5E5 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				B292C9CA2A5068D900A0D5E5 /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -77,6 +92,13 @@
 				B292C9D42A5068DB00A0D5E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B29C55B42A5069270022CEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +118,7 @@
 			);
 			name = CSKorMed;
 			packageProductDependencies = (
-				B292C9CB2A5068D900A0D5E5 /* RealityKitContent */,
+				B29C55B52A50694B0022CEB7 /* MaleBody */,
 			);
 			productName = CSKorMed;
 			productReference = B292C9C62A5068D900A0D5E5 /* CSKorMed.app */;
@@ -153,7 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B292C9D02A5068D900A0D5E5 /* ContentView.swift in Sources */,
+				B2D67CA22A6AAD0000EDD422 /* AttachmentsProvider.swift in Sources */,
+				B2D67CA02A6AAC7000EDD422 /* LearnMoreView.swift in Sources */,
+				B2D67C9E2A6AAB0C00EDD422 /* Components.swift in Sources */,
 				B292C9CE2A5068D900A0D5E5 /* CSKorMedApp.swift in Sources */,
+				B2D87CA72A6ADA4E009072B5 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +316,7 @@
 				DEVELOPMENT_TEAM = 98882K9P37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSKorMed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,6 +343,7 @@
 				DEVELOPMENT_TEAM = 98882K9P37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSKorMed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,9 +383,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B292C9CB2A5068D900A0D5E5 /* RealityKitContent */ = {
+		B29C55B52A50694B0022CEB7 /* MaleBody */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
+			productName = MaleBody;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
